@@ -1,0 +1,19 @@
+body {
+background-color: rgb(163, 168, 173);
+}
+.container {
+    max-width: 600px;
+}
+
+.btn {
+    background-color: #43d9be;
+    color: beige;
+    outline: none i !important;
+    box-shadow: none i !important;
+}
+.btn:hover {
+    outline: none i !important;
+    background-color: rgb(126, 71, 21);
+    translate: 2px;
+    box-shadow: 2 4 3 rgba(0, 0, 0, .5)
+}
