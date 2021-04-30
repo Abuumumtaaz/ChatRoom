@@ -14,10 +14,10 @@ class Chatroom {
             messege,
             username: this.username,
             room: this.room,
-            created_at: firebase.firestore.Timestamp.fromDate(now)
+            created_at:  firebase.firestore.Timestamp.fromDate(now)
 
         };
-        //save chat doc
+        //save chat doc to the data base
         const response = await this.chatRoom.add(chat);
         return response;
     }
