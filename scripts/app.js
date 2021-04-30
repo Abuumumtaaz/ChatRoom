@@ -41,6 +41,5 @@ const username = localStorage.username ? localStorage.username : 'anon';
 const chatui = new ChatUI(chatList);
 const chatrooom = new Chatroom('general', username);
 
-
 //get chats and render
 chatrooom.getchats((data) => chatui.render(data));
